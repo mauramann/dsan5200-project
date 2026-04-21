@@ -1,0 +1,25 @@
+---
+title: "The Rise in America's Agri-Biotech Industry"
+format: 
+  html:
+    css: styles.css
+---
+
+Advances in technology have led to the rise in a new era for genetically engineered crops in the U.S., which include incredible enhancements in herbicide-tolerant, insect-resistant, and nutritionally enhanced crops. While these innovations have greatly improved agricultural productivity, they raise a number of long-term health, environmental, and ethical considerations.
+
+                                        By Maura Mann
+
+
+![](plots/plot1.svg)
+
+```{=html}
+<iframe src="plots/plot2.html" width="90%" height="500px" frameborder="0" style="display:block; margin: 0 auto;"></iframe>
+```
+
+```{=html}
+<iframe src="plots/plot3.html" width="80%" height="500px" frameborder="0" style="display:block; margin: 0 auto;"></iframe>
+```
+
+```{=html}
+<iframe src="plots/plot4.html" width="100%" height="800px" frameborder="0" style="display:block; margin: 0 auto;"></iframe>
+```

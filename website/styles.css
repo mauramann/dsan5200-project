@@ -1,0 +1,9 @@
+/* css styles */
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
+  background-color: #faf0e6;
+  font-family: "Times New Roman", Times, serif;
+}

@@ -2,18 +2,20 @@ project:
   type: website
 
 website:
-  title: "dsan5200"
+  title: "Dsan 5200 Project"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: llmlog.qmd
+        text: LLM Log
 
 format:
   html:
     theme:
       - cosmo
       - brand
+    bibliography: references.bib
     css: styles.css
     toc: true
 

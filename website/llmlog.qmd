@@ -1,0 +1,6 @@
+---
+title: "LLM Usage Log"
+format: html
+---
+
+This page was used during the course of the project to log all instances of LLM usage.
