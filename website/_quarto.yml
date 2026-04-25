@@ -9,6 +9,8 @@ website:
         text: Home
       - href: llmlog.qmd
         text: LLM Log
+      - href: sources.qmd
+        text: Sources
 
 format:
   html:

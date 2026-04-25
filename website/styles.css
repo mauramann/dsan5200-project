@@ -7,3 +7,9 @@ body {
   background-color: #faf0e6;
   font-family: "Times New Roman", Times, serif;
 }
+
+.references {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
