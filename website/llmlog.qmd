@@ -4,3 +4,14 @@ format: html
 ---
 
 This page was used during the course of the project to log all instances of LLM usage.
+
+## Brainstorming:
+
+* Explore if it was possible to do geospatial plotting with incomplete data
+* Find relevant articles to help orient myself with agri-biotech industry trends
+
+
+## Code:
+
+* Provide explanation into CSS quarto formatting
+* Understanding how to combine different plot components into an infographic

@@ -1,0 +1,19 @@
+---
+title: "Technical Appendix"
+format: html
+---
+
+## Data Cleaning
+
+In preparation for exploring the corn, cotton, and soybean data against each other, I had to combine the three different data sets together. The data for each of the crops originally came in a table format, so it wasn't suitable for plotting since there weren't defined columns and rows. My main data cleaning effort included getting all the data from the tables into a clean data frame while not losing any important information from the original data structure. I created a function that parsed each of the tables and made each row a different state and year combination. I also created additional columns such as 'Attribute' and 'Crop' to accurately keep the genetic variant and separate crop information in tact. In addition to the main wrangling task, many of the state names had to be cleaned up because the strings weren't the same across the three data sets.
+
+## Data Wrangling
+
+To create the time series geospatial graph about genetically engineered corn, I did have to do a bit of data wrangling because the only state identifier I had in the original data was the state's name. Since I was using the states data from the 'vega_datasets' package in Python, each state had to be mapped to a numerical identifier. I created a new column in the data set called 'state_id' where each state was mapped to its equivalent number in the 'states' data set. Once this was complete, I was able to successfully match each state to its associated percentage value for each unique year.
+
+In order to create the donut chart in the infographic, each state was first categorized in a new column as either being a large genetically engineering crop contributor or not. This was done via a binary column with "1" as a large contributor and "0" as not a large contributor. Whether or not the state was considered a large contributor was based on which states were mentioned within the U.S. Department of Agriculture data as being consistently reported on from 2000-2025 with genetically engineered percentages for all or either of corn, cotton, or soybeans. Once each state was categorized, each of the farm income percentages were summed together, which then created the plot.
+
+As a note, the same binary column described above was additionally used to code the color dimension in the treemap plot about farm income percentages by state.
+
+In the horizontally adjuacent plot within the infographic concerning average genetically engineered crops in the U.S. from 2000-2025, the average percent of genetically engineered crops planted across corn, cotton, and soybeans throughout the entire U.S. was calculated per year for all genetic varieties of each crop.
+

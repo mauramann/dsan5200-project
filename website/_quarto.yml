@@ -11,6 +11,8 @@ website:
         text: LLM Log
       - href: sources.qmd
         text: Sources
+      - href: appendix.qmd
+        text: Technical Appendix
 
 format:
   html:

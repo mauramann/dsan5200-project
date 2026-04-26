@@ -1,4 +1,11 @@
 ---
-title: "Sources"
+title: "Data Sources"
 format: html
 ---
+
+Dodson, Laura. "Adoption of Genetically Engineered Crops in the United States." *U.S. Department of Agriculture Economic Research Service*, Dec. 12 2025, https://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-united-states.
+
+Farm Income Team. "Farm Income and Wealth Statistics - Data Files: U.S. and State-Level Farm Income and Wealth Statistics." *U.S. Department of Agriculture Economic Research Service*, Feb. 5 2026, https://ers.usda.gov/data-products/farm-income-and-wealth-statistics/data-files-us-and-state-level-farm-income-and-wealth-statistics. 
+
+Nelson, Kelly. "Agricultural and Food Research and Development Expenditures in the United States." *U.S. Department of Agriculture Economic Research Service*, Feb. 13 2026, https://www.ers.usda.gov/data-products/agricultural-and-food-research-and-development-expenditures-in-the-united-states. 
+

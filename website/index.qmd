@@ -54,7 +54,7 @@ While herbicide-tolerant engineered crops make up most of the current soybeans p
 
 As seen above, there are financial considerations when it comes to planting some genetically engineered crops. However, they have transformed the agriculture industry on the both the manufacturing and consumer fronts. The U.S. farm income industry is huge, bringing in $1.53 trillon dollars in 2023, accounting for 5.3% of total GDP [@U.S.Chamber]. Some of the states with the largest farm-income are also some of the largest when it comes to planting genetically engineered corn, cotton, and soybeans.
 
-![Green states are large GE corn, cotton, and soybean contributors. Orange are not large GE contributors.](plots/plot5.svg)
+![Green states are large GE corn, cotton, and soybean contributors. Orange are not large GE contributors.](plots/plot5.svg){width=100%}
 
 ## Summary
 
