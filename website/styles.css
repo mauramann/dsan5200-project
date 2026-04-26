@@ -9,7 +9,28 @@ body {
 }
 
 .references {
+  background-color: #faf0e6;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
+}
+
+.references h2 {
+  background-color: #faf0e6;
+  color: inherit;
+}
+
+.page-bottom, 
+footer,
+.footer,
+body > *:last-child {
+  background-color: #faf0e6;
+}
+
+.quarto-title-block,
+.quarto-appendix-contents,
+div#quarto-appendix.default {
+  background-color: #faf0e6 !important;
+  border-top: none !important;
+  padding-top: 0 !important;
 }
